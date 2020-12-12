@@ -1,13 +1,13 @@
 module.exports = {
-  purge: [],
+  purge: {
+    content: ["./src/**/*.vue"]
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {}
   },
   variants: {
-    extend: {
-      visibility: ["hover", "focus", "group-hover"]
-    }
+    extend: {}
   },
   plugins: []
 };
